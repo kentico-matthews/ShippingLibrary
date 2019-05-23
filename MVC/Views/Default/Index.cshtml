@@ -1,0 +1,25 @@
+﻿@model MVC.Models.HomeViewModel
+@using MVC.Models
+@using CMS.DocumentEngine
+@using CMS.Ecommerce
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+
+@foreach(Product product in Model.Products)
+{
+<div class="product">
+    <div class="productimage">
+        <img src="@product.Sku.SKUImagePath.Replace("~","http://localhost/ecom12Blank_Admin")" alt="asdf" />
+    </div>
+    <div class="productName">@product.Document.DocumentName</div>
+    <div>@string.Format("${0:f2}", product.Sku.SKUPrice)</div>
+    <a class="button" href="~/AddToCart/@product.Sku.SKUID">
+        Add To Cart
+    </a>
+</div>
+}
+

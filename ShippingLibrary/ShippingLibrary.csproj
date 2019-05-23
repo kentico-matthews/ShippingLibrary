@@ -1,0 +1,270 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net461\ShippingLibrary.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net461\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\net461\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\net461\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net461\ShippingLibrary.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net461\AngleSharp.dll" />
+    <None Include="bin\Debug\net461\Antlr3.Runtime.dll" />
+    <None Include="bin\Debug\net461\AWSSDK.Core.dll" />
+    <None Include="bin\Debug\net461\AWSSDK.S3.dll" />
+    <None Include="bin\Debug\net461\Castle.Core.dll" />
+    <None Include="bin\Debug\net461\Castle.Windsor.dll" />
+    <None Include="bin\Debug\net461\CMS.Activities.dll" />
+    <None Include="bin\Debug\net461\CMS.Activities.Loggers.dll" />
+    <None Include="bin\Debug\net461\CMS.AmazonStorage.dll" />
+    <None Include="bin\Debug\net461\CMS.AspNet.Platform.dll" />
+    <None Include="bin\Debug\net461\CMS.Automation.dll" />
+    <None Include="bin\Debug\net461\CMS.AzureStorage.dll" />
+    <None Include="bin\Debug\net461\CMS.BannerManagement.dll" />
+    <None Include="bin\Debug\net461\CMS.Base.dll" />
+    <None Include="bin\Debug\net461\CMS.Blogs.dll" />
+    <None Include="bin\Debug\net461\CMS.Chat.dll" />
+    <None Include="bin\Debug\net461\CMS.Community.dll" />
+    <None Include="bin\Debug\net461\CMS.ContactManagement.dll" />
+    <None Include="bin\Debug\net461\CMS.ContinuousIntegration.dll" />
+    <None Include="bin\Debug\net461\CMS.Core.dll" />
+    <None Include="bin\Debug\net461\CMS.CustomTables.dll" />
+    <None Include="bin\Debug\net461\CMS.DataEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.DataProtection.dll" />
+    <None Include="bin\Debug\net461\CMS.DeviceProfiles.dll" />
+    <None Include="bin\Debug\net461\CMS.DocumentEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.Ecommerce.dll" />
+    <None Include="bin\Debug\net461\CMS.EmailEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.EventLog.dll" />
+    <None Include="bin\Debug\net461\CMS.EventManager.dll" />
+    <None Include="bin\Debug\net461\CMS.FormEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.Forums.dll" />
+    <None Include="bin\Debug\net461\CMS.Globalization.dll" />
+    <None Include="bin\Debug\net461\CMS.HealthMonitoring.dll" />
+    <None Include="bin\Debug\net461\CMS.Helpers.dll" />
+    <None Include="bin\Debug\net461\CMS.ImportExport.dll" />
+    <None Include="bin\Debug\net461\CMS.IO.dll" />
+    <None Include="bin\Debug\net461\CMS.LicenseProvider.dll" />
+    <None Include="bin\Debug\net461\CMS.LicenseProvider.XmlSerializers.dll" />
+    <None Include="bin\Debug\net461\CMS.MacroEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.MediaLibrary.dll" />
+    <None Include="bin\Debug\net461\CMS.Membership.dll" />
+    <None Include="bin\Debug\net461\CMS.MembershipProvider.dll" />
+    <None Include="bin\Debug\net461\CMS.MessageBoards.dll" />
+    <None Include="bin\Debug\net461\CMS.Modules.dll" />
+    <None Include="bin\Debug\net461\CMS.Newsletters.dll" />
+    <None Include="bin\Debug\net461\CMS.OnlineForms.dll" />
+    <None Include="bin\Debug\net461\CMS.OnlineMarketing.dll" />
+    <None Include="bin\Debug\net461\CMS.Personas.dll" />
+    <None Include="bin\Debug\net461\CMS.Polls.dll" />
+    <None Include="bin\Debug\net461\CMS.PortalEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.Protection.dll" />
+    <None Include="bin\Debug\net461\CMS.Relationships.dll" />
+    <None Include="bin\Debug\net461\CMS.Reporting.dll" />
+    <None Include="bin\Debug\net461\CMS.ResponsiveImages.dll" />
+    <None Include="bin\Debug\net461\CMS.Routing.Web.dll" />
+    <None Include="bin\Debug\net461\CMS.SalesForce.dll" />
+    <None Include="bin\Debug\net461\CMS.Scheduler.dll" />
+    <None Include="bin\Debug\net461\CMS.Search.Azure.dll" />
+    <None Include="bin\Debug\net461\CMS.Search.dll" />
+    <None Include="bin\Debug\net461\CMS.Search.Lucene3.dll" />
+    <None Include="bin\Debug\net461\CMS.Search.TextExtractors.dll" />
+    <None Include="bin\Debug\net461\CMS.SharePoint.dll" />
+    <None Include="bin\Debug\net461\CMS.SiteProvider.dll" />
+    <None Include="bin\Debug\net461\CMS.SocialMarketing.dll" />
+    <None Include="bin\Debug\net461\CMS.StrandsRecommender.dll" />
+    <None Include="bin\Debug\net461\CMS.Synchronization.dll" />
+    <None Include="bin\Debug\net461\CMS.Synchronization.WSE3.dll" />
+    <None Include="bin\Debug\net461\CMS.SynchronizationEngine.dll" />
+    <None Include="bin\Debug\net461\CMS.Taxonomy.dll" />
+    <None Include="bin\Debug\net461\CMS.TranslationServices.dll" />
+    <None Include="bin\Debug\net461\CMS.WebAnalytics.dll" />
+    <None Include="bin\Debug\net461\CMS.WebFarmSync.dll" />
+    <None Include="bin\Debug\net461\CMS.WorkflowEngine.dll" />
+    <None Include="bin\Debug\net461\de\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\de\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\de\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\de\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\de\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\DocumentFormat.OpenXml.dll" />
+    <None Include="bin\Debug\net461\DotNetOpenAuth.dll" />
+    <None Include="bin\Debug\net461\es\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\es\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\es\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\es\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\es\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\Facebook.dll" />
+    <None Include="bin\Debug\net461\fr\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\fr\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\fr\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\fr\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\fr\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\GlobalLink.Connect.dll" />
+    <None Include="bin\Debug\net461\it\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\it\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\it\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\it\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\it\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\ja\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\ja\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\ja\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\ja\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\ja\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\Kentico.Content.Web.Mvc.dll" />
+    <None Include="bin\Debug\net461\Kentico.Content.Web.Mvc.Views.dll" />
+    <None Include="bin\Debug\net461\Kentico.Membership.dll" />
+    <None Include="bin\Debug\net461\Kentico.OnlineMarketing.Web.Mvc.dll" />
+    <None Include="bin\Debug\net461\Kentico.Web.Mvc.dll" />
+    <None Include="bin\Debug\net461\ko\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\ko\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\ko\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\ko\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\ko\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\LinqToTwitter.net.dll" />
+    <None Include="bin\Debug\net461\Lucene.Net.v3.dll" />
+    <None Include="bin\Debug\net461\Lucene.Net.WordNet.SynExpand.dll" />
+    <None Include="bin\Debug\net461\MaxMind.Db.dll" />
+    <None Include="bin\Debug\net461\MaxMind.GeoIP2.dll" />
+    <None Include="bin\Debug\net461\Microsoft.AspNet.Identity.Core.dll" />
+    <None Include="bin\Debug\net461\Microsoft.AspNet.Identity.Owin.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Azure.KeyVault.Core.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Azure.Search.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Data.Edm.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Data.OData.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Data.Services.Client.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Office.Client.Policy.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Office.Client.TranslationServices.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Office.SharePoint.Tools.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Online.SharePoint.Client.Tenant.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Owin.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Owin.Security.Cookies.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Owin.Security.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Owin.Security.OAuth.dll" />
+    <None Include="bin\Debug\net461\Microsoft.ProjectServer.Client.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Rest.ClientRuntime.Azure.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Rest.ClientRuntime.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.DocumentManagement.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Publishing.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Runtime.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Runtime.Windows.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Search.Applications.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Search.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.Taxonomy.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.UserProfiles.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SharePoint.Client.WorkflowServices.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Spatial.dll" />
+    <None Include="bin\Debug\net461\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Web.Infrastructure.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Web.Services3.dll" />
+    <None Include="bin\Debug\net461\Microsoft.Web.XmlTransform.dll" />
+    <None Include="bin\Debug\net461\Microsoft.WindowsAzure.Storage.dll" />
+    <None Include="bin\Debug\net461\Mono.Cecil.dll" />
+    <None Include="bin\Debug\net461\Mono.Cecil.Mdb.dll" />
+    <None Include="bin\Debug\net461\Mono.Cecil.Pdb.dll" />
+    <None Include="bin\Debug\net461\Mono.Cecil.Rocks.dll" />
+    <None Include="bin\Debug\net461\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net461\NuGet.Core.dll" />
+    <None Include="bin\Debug\net461\OpenPop.dll" />
+    <None Include="bin\Debug\net461\Owin.dll" />
+    <None Include="bin\Debug\net461\PayPal.dll" />
+    <None Include="bin\Debug\net461\PDFClown.dll" />
+    <None Include="bin\Debug\net461\PreMailer.Net.dll" />
+    <None Include="bin\Debug\net461\ru\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\ru\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\ru\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\ru\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\ru\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\ShippingLibrary.dll" />
+    <None Include="bin\Debug\net461\ShippingLibrary.pdb" />
+    <None Include="bin\Debug\net461\System.Data.HashFunction.Core.dll" />
+    <None Include="bin\Debug\net461\System.Data.HashFunction.CRC.dll" />
+    <None Include="bin\Debug\net461\System.Data.HashFunction.Interfaces.dll" />
+    <None Include="bin\Debug\net461\System.IO.FileSystem.Primitives.dll" />
+    <None Include="bin\Debug\net461\System.IO.Packaging.dll" />
+    <None Include="bin\Debug\net461\System.Net.Http.Formatting.dll" />
+    <None Include="bin\Debug\net461\System.Reactive.Core.dll" />
+    <None Include="bin\Debug\net461\System.Reactive.Interfaces.dll" />
+    <None Include="bin\Debug\net461\System.Reactive.Linq.dll" />
+    <None Include="bin\Debug\net461\System.Reactive.PlatformServices.dll" />
+    <None Include="bin\Debug\net461\System.Spatial.dll" />
+    <None Include="bin\Debug\net461\System.ValueTuple.dll" />
+    <None Include="bin\Debug\net461\System.Web.Helpers.dll" />
+    <None Include="bin\Debug\net461\System.Web.Http.dll" />
+    <None Include="bin\Debug\net461\System.Web.Http.WebHost.dll" />
+    <None Include="bin\Debug\net461\System.Web.Mvc.dll" />
+    <None Include="bin\Debug\net461\System.Web.Optimization.dll" />
+    <None Include="bin\Debug\net461\System.Web.Razor.dll" />
+    <None Include="bin\Debug\net461\System.Web.WebPages.Deployment.dll" />
+    <None Include="bin\Debug\net461\System.Web.WebPages.dll" />
+    <None Include="bin\Debug\net461\System.Web.WebPages.Razor.dll" />
+    <None Include="bin\Debug\net461\Ude.dll" />
+    <None Include="bin\Debug\net461\WebGrease.dll" />
+    <None Include="bin\Debug\net461\zh-Hans\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hans\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hans\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hans\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hans\System.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hant\Microsoft.Data.Edm.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hant\Microsoft.Data.OData.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hant\Microsoft.Data.Services.Client.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hant\Microsoft.Spatial.resources.dll" />
+    <None Include="bin\Debug\net461\zh-Hant\System.Spatial.resources.dll" />
+    <None Include="obj\Debug\net461\ShippingLibrary.App_Data.Global.Resources.Kentico.Builder.resources" />
+    <None Include="obj\Debug\net461\ShippingLibrary.App_Data.Global.Resources.Kentico.FormBuilder.resources" />
+    <None Include="obj\Debug\net461\ShippingLibrary.App_Data.Global.Resources.Kentico.PageBuilder.resources" />
+    <None Include="obj\Debug\net461\ShippingLibrary.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net461\ShippingLibrary.assets.cache" />
+    <None Include="obj\Debug\net461\ShippingLibrary.csproj.CopyComplete" />
+    <None Include="obj\Debug\net461\ShippingLibrary.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net461\ShippingLibrary.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net461\ShippingLibrary.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\net461\ShippingLibrary.dll" />
+    <None Include="obj\Debug\net461\ShippingLibrary.pdb" />
+    <None Include="obj\ShippingLibrary.csproj.nuget.cache" />
+    <None Include="obj\ShippingLibrary.csproj.nuget.g.props" />
+    <None Include="obj\ShippingLibrary.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kentico.AspNet.Mvc" Version="12.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CMS.Base">
+      <HintPath>..\CMS\bin\CMS.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Core">
+      <HintPath>..\CMS\bin\CMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.DataEngine">
+      <HintPath>..\CMS\bin\CMS.DataEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Ecommerce">
+      <HintPath>..\CMS\bin\CMS.Ecommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.EventLog">
+      <HintPath>..\CMS\bin\CMS.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Helpers">
+      <HintPath>..\CMS\bin\CMS.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\CMS\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

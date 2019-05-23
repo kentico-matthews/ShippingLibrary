@@ -1,0 +1,31 @@
+﻿@using CMS.Ecommerce
+@model ShoppingCartInfo
+@{ 
+    ViewBag.Title = "Shipping";
+    
+}
+
+<h2>Shipping</h2>
+
+<form action="~/UpdateAddress" method="post">
+    <div>First Name: <input name="FirstName" type="text" value="@((Model.Customer == null) ? "" : Model.Customer.CustomerFirstName)" required/></div>
+    <div>Last Name: <input name="LastName" type="text" value="@((Model.Customer == null) ? "" :Model.Customer.CustomerLastName)" required/></div>
+    <div>Email: <input name="Email" type="email" value="@((Model.Customer == null) ? "" :Model.Customer.CustomerEmail)" required/></div>
+    <div>Address 1: <input name="AddressLine1" type="text" value="@((Model.ShoppingCartShippingAddress == null) ? "" : Model.ShoppingCartShippingAddress.AddressLine1)" required/></div>
+    <div>Address 2: <input name="AddressLine2" type="text" value="@((Model.ShoppingCartShippingAddress == null) ? "" : Model.ShoppingCartShippingAddress.AddressLine2)" /></div>
+    <div>City: <input name="City" type="text" value="@((Model.ShoppingCartShippingAddress == null) ? "" : Model.ShoppingCartShippingAddress.AddressCity)" required/></div>
+    <div>State ID: <input name="StateID" type="text" value="@((Model.ShoppingCartShippingAddress == null) ? "" : Model.ShoppingCartShippingAddress.AddressStateID.ToString())" required/></div>
+    <div>Zip Code: <input name="Zip" type="text" value="@((Model.ShoppingCartShippingAddress == null) ? "" : Model.ShoppingCartShippingAddress.AddressZip)" required/></div>
+
+    <input name="CartID" type="hidden" value="@Model.ShoppingCartID" />
+    <input name="CustomerID" type="hidden" value="@Model.ShoppingCartCustomerID" />
+    <input name="AddressID" type="hidden" value="@Model.ShoppingCartShippingAddressID" />
+
+    <div><input type="submit" value="Update Address" /></div>
+</form>
+
+@if(Model.ShoppingCartShippingAddress != null && Model.Customer != null)
+{
+    <div>Shipping: @string.Format("${0:f2}",Model.TotalShipping)</div>
+    <div><a class="button" href="~/Review">Continue</a></div>
+}

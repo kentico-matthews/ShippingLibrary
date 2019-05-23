@@ -1,0 +1,27 @@
+﻿@using CMS.Ecommerce
+@model ShoppingCartInfo
+@{
+    ViewBag.Title = "Review";
+}
+
+<h2>Review</h2>
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Units</th>
+        <th>Price</th>
+        <th>Estimated Delivery</th>
+    </tr>
+    @foreach (ShoppingCartItemInfo scii in Model.CartItems)
+    {
+        <tr>
+            <td>@scii.SKU.SKUName</td>
+            <td>@scii.CartItemUnits</td>
+            <td>@string.Format("${0:f2}", scii.TotalPrice)</td>
+            <td>@scii.CartItemCustomData.GetValue("DeliveryDate").ToString().Split(' ')[0]</td>
+        </tr>
+    }
+</table>
+<div><b>Subtotal: </b>@string.Format("${0:f2}", Model.TotalItemsPrice)</div>
+<div><b>Shipping: </b>@string.Format("${0:f2}", Model.TotalShipping)</div>
+<div><b>Total: </b>@string.Format("${0:f2}", Model.TotalPrice)</div>

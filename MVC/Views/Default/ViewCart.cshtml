@@ -1,0 +1,25 @@
+﻿@using CMS.Ecommerce
+@model ShoppingCartInfo
+@{
+    ViewBag.Title = "ViewCart";
+}
+
+<h2>ViewCart</h2>
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Units</th>
+        <th>Price</th>
+        
+    </tr>
+    @foreach (ShoppingCartItemInfo scii in Model.CartItems)
+    {
+        <tr>
+            <td>@scii.SKU.SKUName</td>
+            <td>@scii.CartItemUnits</td>
+            <td>@string.Format("${0:f2}",scii.TotalPrice)</td>
+        </tr>
+    }
+</table>
+<div><b>Total: </b>@string.Format("${0:f2}", Model.TotalItemsPrice)</div>
+<a class="button" href="~/Shipping">Shipping</a>
